@@ -15,7 +15,7 @@ import br.com.inpaas.htmlwizard.converter.ConverterFactory;
 
 /**
  * AWS Lambda UI
- * Handler: br.com.inpaas.htmlwizard.AWSLambdaUI::handleRequest
+ * Handler: br.com.inpaas.htmlwizard.ui.AWSLambdaUI::handleRequest
  * 
  * @author Dio
  */
