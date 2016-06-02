@@ -13,6 +13,8 @@ public class ConverterFactory {
 		switch(type.toLowerCase()) {
 			case "pdf": return new PDFConverter();
 			
+			case "docx": return new DOCXConverter();
+			
 			default: return new PDFConverter();
 		}
 	}
