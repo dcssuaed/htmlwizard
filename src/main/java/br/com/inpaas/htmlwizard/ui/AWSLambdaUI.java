@@ -32,7 +32,7 @@ public class AWSLambdaUI implements RequestHandler<Request, Response> {
 		ByteArrayInputStream is = null;
 		ByteArrayOutputStream os = null;
 		try {
-			is = new ByteArrayInputStream(request.getSource().getBytes());
+			is = new ByteArrayInputStream(request.getSource().getBytes("ISO-8859-1"));
 			os = new ByteArrayOutputStream();
 			
 			Converter converter = ConverterFactory.getByTargetType(request.getTarget());
